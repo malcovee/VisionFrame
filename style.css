@@ -1,0 +1,101 @@
+body {
+    background-image: url("Arcane.S01E04.Happy.Progress.Day.1080p.NF.WEB-DL.DDP5.1.HEVC-TEPES.mkv_snapshot_02.49-4x_BSRGAN.png");
+    background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+}
+
+h1, h2, h3 {
+  font-family: 'MyCustomFont', sans-serif;
+  color: #ffffff;
+  text-align: center; 
+}
+
+
+.logo {
+    img {
+        width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: #ddd;
+    }
+    
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.main {
+font-size: 40px;
+text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.12);
+margin-bottom: -40px; /* dont gaya sa iba */
+line-height: 1;
+}
+
+
+.submain {
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;  
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.247);
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.button {
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  text-align:center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.homebutton {
+  color: #ffffff; 
+  border: 2px solid #ffffff;
+}
+
+.homebutton:hover {
+  background-color: #5691a7;
+  color: white;
+  border: solid #5691a7;
+}

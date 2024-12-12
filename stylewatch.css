@@ -1,0 +1,107 @@
+body {
+    background-image: url("Arcane.S01E02.Some.Mysteries.Are.Better.Left.Unsolved11.02.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+h1, h2, h3 {
+  font-family: 'MyCustomFont', sans-serif;
+  color: #ffffff;
+  text-align: center; 
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+
+.logo {
+    img {
+        width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: #ddd;
+    }
+    
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh; /* Adjust the height as needed */
+  gap: 50px; /* Adjust the gap as needed */
+
+}
+
+.video-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-wrapper iframe {
+  width: 560px;
+  height: 315px;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  display: block; /* Make the button block-level to center it */
+  width: 150px; /* Adjust the width as needed */
+  margin-top: 10px; /* Add margin to space the button from the iframe */
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  text-align: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  background: transparent;
+  color: #ffffff; 
+  border: 2px solid #ffffff;}
+
+
+button:hover {
+  background-color: #42232f;
+  color: white;
+  border: solid #42232f;
+}

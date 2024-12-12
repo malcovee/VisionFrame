@@ -1,0 +1,143 @@
+body {
+    background-image: url("Arcane.S01E04.Happy.Progress.Day02.17.png");
+    background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+}
+
+h1, h2, h3 {
+  font-family: 'MyCustomFont', sans-serif;
+  color: #ffffff;
+  text-align: center; 
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+
+.logo {
+    img {
+        width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: #ddd;
+    }
+    
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  padding: 30px;
+  padding-top: 5px;
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(5px);
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Adjust height as needed */
+}
+  
+  .initial-card {
+    display: block;
+  }
+  
+  .final-card {
+    display: none;
+  }
+  
+  .final-card.show {
+    display: block;
+  }
+
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    text-align:center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    background: transparent;
+  }
+
+  .card p {
+    text-align: center;
+  }
+  
+  .card button {
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+  }
+  .initial-card button {
+    color: #ffffff; 
+    border: 2px solid #ffffff;
+  }
+
+  .initial-card button:hover {
+    background-color: #9e864e;
+    color: white;
+    border: solid #9e864e;
+  }
+
+  .final-card button {
+    color: #ffffff; 
+    border: 2px solid #ffffff;
+  }
+
+
+  .final-card button:hover {
+    color: #ffffff; 
+    border: 2px solid #ffffff;
+    background-color: #9e864e;
+    color: white;
+    border: solid #9e864e;
+  }
